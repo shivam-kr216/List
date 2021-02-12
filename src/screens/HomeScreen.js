@@ -20,7 +20,22 @@ const HomeScreen = ({ navigation }) => {
       onPress={() => navigation.navigate('Image')}
       title="Go to Image Demo"
     />
-    
+
+    <Button
+      onPress={() => navigation.navigate('Conter')}
+      title="Go to Counter Demo"
+    />
+
+    <Button
+      onPress={() => navigation.navigate('Color')}
+      title="Go to Color Demo"
+    />
+
+    <Button
+      onPress={() => navigation.navigate('Square')}
+      title="Go to Square Demo"
+    />
+
     {/*<TouchableOpacity onPress={() => props.navigation.navigate('List')}>
       <Text>Go to List Demo</Text>
       We can add multiple text as below lines are also correct
