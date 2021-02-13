@@ -3,7 +3,7 @@ import { FlatList, View, StyleSheet, Button } from 'react-native';
 
 const ColorScreen = () => {
     const [colors, setColors] = useState([]);
-    console.log(colors);
+    //console.log(colors);
     return (
         <View>
             <Button title="Add a color" onPress={ () => {
