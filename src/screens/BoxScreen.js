@@ -14,14 +14,14 @@ export default function TextScreen() {
 const styles = StyleSheet.create(
     {
         viewStyle: {
-            borderColor: black,
+            borderColor: 'black',
             borderWidth: 1,
             alignItems: 'center',
             flexDirection: 'row'
         },
         textStyle: {
             borderWidth: 1,
-            borderColor: red,
+            borderColor: 'red',
             margin: 20
         }
     }
