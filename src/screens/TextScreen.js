@@ -23,7 +23,7 @@ const styles = StyleSheet.create(
     {
         input: {
             margin: 15,
-            borderColor: black,
+            borderColor: 'black',
             borderWidth: 1,
             padding: 8
         }
